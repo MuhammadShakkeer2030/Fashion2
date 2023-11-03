@@ -1,4 +1,4 @@
-function Card() {
+export default function Card() {
     return (
         <div>
             <div className="px-12 mb-10">
@@ -6,9 +6,24 @@ function Card() {
                 <h4 className="font-Cardo text-text leading-30 text-1.25">Introducing the game-changer in tote bags</h4>
             </div>
             <div className="slider px-6">
-                <ul className="fle'">
+                <ul className="flex">
                     <li className="absolute">
-                        <div className="card  ">
+                    <Card1/>
+                    </li>
+                    <li className=" ">
+                         <Card2/>
+                    </li>
+               
+                </ul>
+            </div>
+        </div>
+    )
+}
+
+function Card1() {
+    return (
+        <>
+            <div className="card">
                         <img src="https://www.theplor.in/cdn/shop/files/plor-college-tote-bag.jpg?v=1697483698&width=360https://www.theplor.in/cdn/shop/files/plor-college-tote-bag.jpg?v=1697483698&width=360" alt="bag"  className="w-115 h-40 object-cover blur-xx"/>
                             <img src="https://www.theplor.in/cdn/shop/files/tote-bag-with-zip.jpg?v=1698249082&width=360" alt="girl with bag" className="absolute top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-100 duration-slow w-115 h-40 object-cover" />
                             <button type="button" className="font-Lora bg-black text-xx text-white leading-17 px-3 py-1 rounded-xl absolute bottom-44 left-3">Sale</button>
@@ -21,16 +36,14 @@ function Card() {
                                 <button type="button" className="border-xxs border-black text-light-black bg-white px-28 py-3 rounded-xl mt-6 w-full">Choose options</button>
                             </div>
                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="https://www.theplor.in/cdn/shop/files/tote-bag-with-zip.jpg?v=1698249082&width=360" alt="imager" />
-                         </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        </>
+     )
+}
+ 
+function Card2() {
+    return (
+        <>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </>
     )
 }
-
-export default Card

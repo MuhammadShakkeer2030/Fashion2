@@ -60,6 +60,8 @@ export default {
       width: {
         9: " 22.5em",
         115: "26em",
+        36: "36%",
+        
       },
       transitionDuration: {
         slow: "1s",

@@ -47,28 +47,7 @@ function FaShoppingBag() {
     )
 }
 
-function BsChevronDown() {
-    return (
-        <>
-            <svg
-                aria-hidden="true"
-                focusable="false"
-                className="icon icon-caret"
-                viewBox="0 0 10 6"
-                style={{ width: '14px', height: '14px' }}  
-            >
-                <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
-                    fill="currentColor"
-                ></path>
-            </svg>
-            <BsChevronDown />
-        </>
-    )
-}
-
+ 
 function Menu() {
     return (
       <div className="flex justify-center gap-7 mt-4 text-nav   tracking-nav  mb-12 font-Cardo text-light-black leading-4">
