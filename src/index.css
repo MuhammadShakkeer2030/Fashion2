@@ -5,10 +5,9 @@
 .icon-large {
     width: 26px;
     height: 26px;
-  }
-  
- a:hover{
-  text-decoration: underline;
-  opacity: 1;
- }
- 
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
