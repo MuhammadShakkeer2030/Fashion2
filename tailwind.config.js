@@ -3,15 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,css}"],
   theme: {
     fontSize: {
-      xx: "13px",
+      xx: "0.8125em",
       nav: "0.91875em",
-      banner: "52px",
+      banner: "3.25em",
       40: "2.5em",
-      1.25: "17px",
+      1.25: "1.0625em",
     },
     letterSpacing: {
-      xx: "1.05px",
-      nav: "0.63px",
+      xx: "0.065625em",
+      nav: "0.039375em",
     },
     gridTemplateColumns: {
       top: "1.1fr 1.2fr 3em",
@@ -30,11 +30,11 @@ export default {
       ban: "56em",
     },
     lineHeight: {
-      ban: "68px",
-      4: "19px",
-      17: "17px",
-      52: "52px",
-      30: "30px",
+      ban: "4.25em",
+      4: "1.1875em",
+      17: "1.0625em",
+      52: "3.25em",
+      30: "1.875em",
     },
     fontFamily: {
       Lora: ['"Lora"', ' "serif"'],

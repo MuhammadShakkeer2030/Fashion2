@@ -11,3 +11,15 @@ a:hover {
     text-decoration: underline;
     opacity: 1;
 }
+
+
+@media screen and (max-width:1024px) {
+    body{
+      width: -moz-fit-content;
+      width: fit-content; 
+    }
+    .relative{
+        padding: 1em;
+    }
+}
+
