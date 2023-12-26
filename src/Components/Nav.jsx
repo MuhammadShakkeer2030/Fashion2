@@ -11,12 +11,13 @@ export default function Nav() {
 
 function Top() {
     return (
-        <div className='grid grid-cols-top p-4 px-14'>
-            <AiOutlineSearch className='icon-large' />
+        <div className='grid grid-cols-top p-4 px-14 mob:h-[9em] mob:items-center mob:grid-cols-xxfr'>
+            <AiOutlineSearch className='icon-large w-[26px] h-[26px] mob:w-14 mob:h-[3.5rem]' />
             <span>
                 <img
                     src='https://www.theplor.in/cdn/shop/files/PLOR_Registered_LOGO_10.png?v=1689319775&width=100'
                     alt='logo'
+                    className='mob:w-60'
                 />
             </span>
             <span className='grid grid-cols-nav w-20 '>
@@ -34,10 +35,9 @@ function AiOutlineUser() {
                     xmlns='http://www.w3.org/2000/svg'
                     aria-hidden='true'
                     focusable='false'
-                    className='icon icon-account w-6 h-8'
+                    className='icon icon-account w-6 h-8 mob:h-[50px] mob:w-14'
                     fill='none'
                     viewBox='0 0 18 19'
-                    style={{ height: '26px' }}
                 >
                     <path
                         fillRule='evenodd'
@@ -53,9 +53,9 @@ function AiOutlineUser() {
 
 function FaShoppingBag() {
     return (
-        <span className=''>
+        <span>
             <svg
-                className='icon icon-cart-empty icon-large '
+                className='icon icon-cart-empty icon-large mob:w-12 mob:h-[3em] '
                 aria-hidden='true'
                 focusable='false'
                 xmlns='http://www.w3.org/2000/svg'
@@ -74,26 +74,26 @@ function FaShoppingBag() {
 
 function Menu() {
     return (
-        <div className='flex justify-center gap-7 mt-4 text-nav   tracking-nav  mb-12 font-Cardo text-light-black leading-4'>
-            <a href='#' className='opacity-80 hover:opacity-100 underline'>
+        <div className='flex justify-center gap-7 mt-4 text-nav   tracking-nav  mb-12 font-Cardo text-light-black leading-4 md:hidden'>
+            <a href='#' className='opacity-80 hover:opacity-100 underline  hover:underline '>
                 Home
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100  hover:underline'>
                 Shop Products{' '}
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100  hover:underline'>
                 Bestie Club
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100  hover:underline'>
                 Reviews
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100  hover:underline'>
                 Questions?
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100  hover:underline'>
                 Blogs
             </a>
-            <a href='#' className='opacity-80 hover:opacity-100'>
+            <a href='#' className='opacity-80 hover:opacity-100 hover:underline'>
                 Order Tracking
             </a>
         </div>

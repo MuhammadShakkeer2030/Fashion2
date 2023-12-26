@@ -1,6 +1,6 @@
 function Banner() {
     return (
-        <div className='banner flex h-ban overflow-hidden max-h-ban mb-10'>
+        <div className='banner flex h-ban overflow-hidden max-h-ban mb-10 md:h-[23em] mob:h-[32em]'>
             <div className='left-content w-full'>
                 <img
                     src='https://www.theplor.in/cdn/shop/files/24_f54908b7-e191-4744-9baf-e1aa96f24a1a.jpg?v=1695201879&width=750'
@@ -15,8 +15,10 @@ function Banner() {
                     className='h-37 w-full object-cover bg-custom-gradient'
                 />
             </div>
-            <div className='absolute grid gap-8 top-100 left-110'>
-                <h1 className='text-banner text-white leading-ban font-Lora'>Bold is YOU</h1>
+            <div className='absolute grid gap-8 top-100 left-110 md:top-[13.7em] md:left-72 mob:top-[26.7em]'>
+                <h1 className='text-banner text-white leading-ban font-Lora md:w-[6em] md:leading-[1.25em]'>
+                    Bold is YOU
+                </h1>
                 <button
                     type='button'
                     className='bg-white w-1/2 m-auto px-2 py-3 box-content rounded-lg font-Cardo text-light-black leading-4 shadow-btn'

@@ -1,7 +1,7 @@
-import Announcement from './Announcement';
-import Nav from './Nav';
-import Banner from './Banner';
-import Card from './Card';
+import Announcement from './Components/Announcement';
+import Nav from './Components/Nav';
+import Banner from './Components/Banner';
+import Card from './Components/Card';
 
 export default function App() {
     return (
