@@ -31,7 +31,7 @@ export default function Announcement() {
     }, [currentIndex]);
 
     return (
-        <div className='h-2.5 bg-black font-Lora md:w-full  md:h-[48px] mob:h-[130px] mob:text-sm'>
+        <div className='h-2.5 bg-black font-Lora md:w-full  md:h-[48px]  mob:text-sm'>
             <div className='flex text-white justify-between max-w-full h-full items-center m-auto'>
                 <AiOutlineLeft className='opacity-50 hover:opacity-100' onClick={handlePrev} />
                 <p className='text-sm lg:text-xx tracking-xx'>{announcement[currentIndex]}</p>

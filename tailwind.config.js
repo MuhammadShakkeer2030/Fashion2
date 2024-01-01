@@ -2,10 +2,10 @@
 export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,css}'],
     theme: {
-        screens: {
-            md: { max: '861px' },
-            mob: { max: '27em' },
-        },
+        // screens: {
+        //     md: { max: '861px' },
+        //     mob: { max: '27em' },
+        // },
         fontSize: {
             xx: '0.8125em',
             nav: '0.91875em',

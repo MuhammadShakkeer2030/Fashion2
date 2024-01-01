@@ -11,8 +11,8 @@ export default function Nav() {
 
 function Top() {
     return (
-        <div className='grid grid-cols-top p-4 px-14 mob:h-[9em] mob:items-center mob:grid-cols-xxfr'>
-            <AiOutlineSearch className='icon-large w-[26px] h-[26px] mob:w-14 mob:h-[3.5rem]' />
+        <div className='grid grid-cols-top xl:p-4 px-14 mob:h-[4em] mob:items-center mob:grid-cols-xxfr'>
+            <AiOutlineSearch className='icon-large w-[26px] h-[26px] mob:w-14 mob:h-[2.5rem]' />
             <span>
                 <img
                     src='https://www.theplor.in/cdn/shop/files/PLOR_Registered_LOGO_10.png?v=1689319775&width=100'
