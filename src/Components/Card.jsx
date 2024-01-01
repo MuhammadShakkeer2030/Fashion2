@@ -2,17 +2,17 @@ function Card() {
     return (
         <div>
             <div className='px-12 mb-10 md:px-6 md:mt-4'>
-                <h2 className='font-Lora text-light-black text-40 leading-52 mb-2 md:leading-[2em] mob:text-[4.5em]'>
+                <h2 className='font-Lora text-light-black text-40 leading-52 mb-2 md:leading-[2em] mob:text-sm'>
                     Unisex College Totes
                 </h2>
-                <h4 className='font-Cardo text-text leading-30 text-1.25 md:font-black md:text-[1.25em] mob:text-[2.50em]'>
+                <h4 className='font-Cardo text-text leading-30 text-1.25 md:font-black md:text-[1.25em] mob:text-sm'>
                     Introducing the game-changer in tote bags
                 </h4>
             </div>
             <div className='slider '>
                 <ul className='px-4 md:overflow-scroll md:px-0'>
-                    <div className='row1 flex justify-between md:w-[125%]'>
-                        <li className='mb-16 md:m-5 m-5'>
+                    <div className='row1 flex  md:flex-row justify-between md:w-[125%]'>
+                        <li className='mb-16 md:m-5 m-5 xl:w-1/3'>
                             <div className='relative group'>
                                 <img
                                     src='https://www.theplor.in/cdn/shop/files/plor-college-tote-bag.jpg?v=1697483698&width=360'
@@ -49,7 +49,7 @@ function Card() {
                                 </div>
                             </div>
                         </li>
-                        <li className='mb-16 md:m-5 m-5'>
+                        <li className='mb-16 md:m-5 m-5 xl:w-1/3'>
                             <div className='relative group'>
                                 <img
                                     src='https://www.theplor.in/cdn/shop/files/brown-tote-bags-india-women.jpg?v=1697570556&width=720'
@@ -86,7 +86,7 @@ function Card() {
                                 </div>
                             </div>
                         </li>
-                        <li className='mb-14 md:m-5 m-5'>
+                        <li className='mb-14 md:m-5 m-5 xl:w-1/3'>
                             <div className='relative group'>
                                 <img
                                     src='https://www.theplor.in/cdn/shop/files/green-tote-bag_61a543be-1240-4d91-9e16-2b874aee707b.jpg?v=1697614343&width=720'
@@ -125,7 +125,7 @@ function Card() {
                         </li>
                     </div>
                     <div className='row1 flex justify-between  md:w-[125%] '>
-                        <li className='mb-16  md:m-5 m-5 m-5'>
+                        <li className='mb-16  md:m-5 m-5'>
                             <div className='relative group'>
                                 <img
                                     src='https://www.theplor.in/cdn/shop/products/22_8bd16ea7-54af-4873-b499-252fa77a4a68.jpg?v=1695396253&width=533'
