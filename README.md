@@ -1,8 +1,51 @@
 # React + Vite
+original website :-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Fashion ecommerce Website
 
-Currently, two official plugins are available:
+## Description
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is Ecommerce website for fashion
+
+## Installation
+
+Before getting started, ensure you have Node.js and npm installed on your machine.
+
+```bash
+# Clone the repository
+git clone https://github.com/MuhammadShakkeer2030/Fashion2.git
+
+# Navigate to the project directory
+cd Fashion2
+
+# Install dependencies
+npm install
+```
+
+## Usage
+
+To run the development server:
+
+```bash
+npm run dev
+```
+
+To build the project:
+
+```bash
+npm run build
+```
+
+To run tests:
+
+```bash
+npm test
+```
+
+## Key Features
+
+  - Header
+  - Hero Section
+  - Resuable Card compoenents
+  - Chat Bot
+  - Footer
