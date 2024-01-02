@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { AiOutlineMenuFold, AiOutlineSearch, AiOutlineUser } from 'react-icons/ai';
 import { FaShoppingBag } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -24,7 +25,9 @@ function Top({ setToggleMenu, toggleMenu }) {
             />
             <div className='grid grid-cols-nav  '>
                 <AiOutlineUser className='icon-large' />
-                <FaShoppingBag />
+                <Link to='/cart'>
+                    <FaShoppingBag />
+                </Link>
                 <button onClick={() => setToggleMenu(!toggleMenu)}>
                     <AiOutlineMenuFold />
                 </button>
@@ -37,7 +40,7 @@ function Menu({ toggleMenu }) {
     return (
         <nav
             className={`${
-                toggleMenu ? 'block ' : 'hidden xl:block'
+                toggleMenu ? 'block ' : 'hidden xl:flex'
             } absolute z-50 flex flex-col xl:flex-row bg-white xl:static  justify-center xl:gap-7 xl:h-[3em] w-full mt-4 text-nav tracking-nav  mb-12 font-Cardo text-light-black leading-4`}
         >
             <a href='#' className='opacity-80 hover:opacity-100 underline  hover:underline '>

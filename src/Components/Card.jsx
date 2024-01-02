@@ -1,8 +1,8 @@
 function Card() {
     return (
         <div>
-            <div className='px-12 mb-10 md:px-6 md:mt-4'>
-                <h2 className='font-Lora text-light-black text-[2em] xl:text-[4em] leading-52 mb-2 md:leading-[2em] mob:text-sm'>
+            <div className=' px-4 xl:px-12 mb-4 xl:mb-10 md:px-6 md:mt-4'>
+                <h2 className='font-Lora text-light-black text-[2em] xl:text-[4em] xl:leading-52 mb-2 md:leading-[2em] mob:text-sm'>
                     Unisex College Totes
                 </h2>
                 <h4 className='font-Cardo text-text leading-30 text-1.25 md:font-black md:text-[1.25em] mob:text-sm'>

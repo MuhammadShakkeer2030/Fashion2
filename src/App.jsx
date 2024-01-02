@@ -1,16 +1,18 @@
-import Announcement from './Components/Announcement';
-import Nav from './Components/Nav';
-import Banner from './Components/Banner';
-import Card from './Components/Card';
-import Footer from './Components/Footer';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Cart from './Components/Cart';
+import { Announcement, Footer } from './paths';
 
 export default function App() {
     return (
         <div>
             <Announcement />
-            <Nav />
-            <Banner />
-            <Card />
+
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/cart' element={<Cart />} />
+            </Routes>
+
             <Footer />
         </div>
     );
