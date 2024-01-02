@@ -17,7 +17,7 @@ function Card() {
                 <ul className='px-2 my-1 xl:my-0 md:overflow-scroll md:px-0 bg-[#9ca3af82]'>
                     <div className='row1 flex md:flex-row justify-between overflow-x-scroll'>
                         {section1?.map((product, index) => (
-                            <li key={index} className='mb-16 md:m-5 m-5 xl:w-1/3'>
+                            <li key={index} className='mb-16 md:m-5 m-3 xl:w-1/3'>
                                 <div className='relative group'>
                                     <img
                                         src={product.images[0]}
@@ -60,7 +60,7 @@ function Card() {
                 <ul className='px-2 my-1 xl:my-0 md:overflow-scroll md:px-0 bg-[#9ca3af82]'>
                     <div className='row1 flex md:flex-row justify-between overflow-x-scroll'>
                         {section2?.map((product, index) => (
-                            <li key={index} className='mb-16 md:m-5 m-5 xl:w-1/3'>
+                            <li key={index} className='mb-16 md:m-5 m-3 xl:w-1/3'>
                                 <div className='relative group'>
                                     <img
                                         src={product.images[0]}
