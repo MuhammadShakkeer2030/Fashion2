@@ -11,7 +11,7 @@ function Card() {
             </div>
             <div className='slider '>
                 <ul className='px-4 md:overflow-scroll md:px-0'>
-                    <div className='row1 flex  md:flex-row justify-between md:w-[125%] overflow-hidden overflow-x-scroll'>
+                    <div className='row1 flex  md:flex-row justify-between   overflow-x-scroll'>
                         <li className='mb-16 md:m-5 m-5 xl:w-1/3'>
                             <div className='relative group'>
                                 <img
@@ -124,7 +124,7 @@ function Card() {
                             </div>
                         </li>
                     </div>
-                    <div className='row1 flex justify-between  md:w-[125%] '>
+                    <div className='row1 flex justify-between overflow-x-scroll'>
                         <li className='mb-16  md:m-5 m-5'>
                             <div className='relative group'>
                                 <img

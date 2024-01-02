@@ -15,7 +15,10 @@ function Banner() {
                     className='h-37 w-full object-contain xl:object-cover bg-custom-gradient'
                 />
             </div>
-            <div className='absolute grid gap-8 top-100 left-110 md:top-[13.7em] md:left-72 mob:top-[26.7em]'>
+            <div
+                className='absolute grid gap-8 top-100 left-110 md:top-[13.7em] md:left-72 mob:top-[26.7em]'
+                style={{ left: '50%', top: '50%' }}
+            >
                 <h1 className='xl:text-banner text-white leading-ban font-Lora md:w-[6em] md:leading-[1.25em]'>
                     Bold is YOU
                 </h1>

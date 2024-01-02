@@ -18,8 +18,8 @@ export default {
             nav: '0.039375em',
         },
         gridTemplateColumns: {
-            top: '1.1fr 1.2fr 3em',
-            nav: '1fr 1fr',
+            top: '1.1fr 1.2fr 1fr',
+            nav: '1fr 1fr 1fr',
             xxfr: '1.1fr 1.7fr 3em',
         },
         height: {
