@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 # Fashion Website
 
 ## Description
 
 This is a Fashion website
 
+=======
+
+original website :- https://plor-clone.vercel.app
+
+# Fashion ecommerce Website
+
+## Description
+
+This is Ecommerce website for fashion
+
+>>>>>>> 7eed495654dfcdb0ec0040cc7b038ba07aca3c7a
 ## Installation
 
 Before getting started, ensure you have Node.js and npm installed on your machine.
@@ -45,4 +57,8 @@ npm test
   - Hero Section
   - Resuable Card compoenents
   - Chat Bot
+<<<<<<< HEAD
   - Footer
+=======
+  - Footer
+>>>>>>> 7eed495654dfcdb0ec0040cc7b038ba07aca3c7a
