@@ -24,7 +24,7 @@ function Banner() {
     text-align: center;
     padding: 10px 5px; */}
 
-            <div className='absolute grid gap-8 left-[20%] bottom-[10%] w-[15em] xl:w-[20em] bg-gray-600 rounded-md text-center px-[5px] py-[10px] xl:top-[50%] xl:left-110 md:left-72'>
+            <div className='absolute grid gap-8 left-[20%] bottom-[10%] w-[15em] xl:w-[20em] bg-gray-600 rounded-md text-center px-[5px] py-[10px] xl:top-[50%] -translate-y-1/2 xl:left-110 md:left-72'>
                 <h1 className='xl:text-banner text-white leading-ban font-Lora md:w-[6em] md:leading-[1.25em]'>
                     Bold is YOU
                 </h1>

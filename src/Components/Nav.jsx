@@ -28,7 +28,7 @@ function Top({ setToggleMenu, toggleMenu }) {
                 <Link to='/cart'>
                     <FaShoppingBag />
                 </Link>
-                <button onClick={() => setToggleMenu(!toggleMenu)}>
+                <button className='xl:hidden' onClick={() => setToggleMenu(!toggleMenu)}>
                     <AiOutlineMenuFold />
                 </button>
             </div>
